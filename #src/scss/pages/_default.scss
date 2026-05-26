@@ -1,0 +1,36 @@
+html {
+	scrollbar-gutter: stable;
+}
+body {
+	overflow-x: hidden;
+	font-family: "Inter_18pt", sans-serif;
+	font-weight: 400;
+	background: #ffffff;
+}
+.container {
+	max-width: 1224px;
+}
+input::-webkit-autofill,
+input::-webkit-contacts-auto-fill,
+input::-webkit-credentials-auto-fill {
+	opacity: 0 !important; /* Робить автозаповнення невидимим */
+	background-color: transparent !important;
+	color: inherit !important;
+}
+.filter select {
+	-webkit-appearance: none;
+	appearance: none;
+}
+.wrapper {
+	flex: 1 0;
+}
+.label-text {
+	font-weight: 500;
+	font-size: 14px;
+	letter-spacing: 0.25em;
+	color: #0e0e0e;
+	padding-left: 12px;
+	border-left: 3px solid #a01818;
+	display: inline-block;
+	margin: 0 auto;
+}

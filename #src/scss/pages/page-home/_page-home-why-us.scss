@@ -1,0 +1,32 @@
+.why-us {
+	&-wrapper {
+		padding: 22px 0;
+		background: #f4f2ec;
+	}
+	&__list {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		grid-gap: 20px;
+		@media screen and (max-width: 768px) {
+			flex-direction: column;
+		}
+	}
+	&__item {
+		text-align: center;
+		& h2 {
+			font-family: "PlusJakartaSans", sans-serif;
+			font-weight: 500;
+			font-size: 14px;
+			letter-spacing: 0.25em;
+			color: #a01818;
+			margin-bottom: 5px;
+		}
+		& p {
+			font-weight: 400;
+			font-size: 16px;
+			color: #0e0e0e;
+			margin-bottom: 0;
+		}
+	}
+}

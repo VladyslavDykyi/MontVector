@@ -32,6 +32,11 @@
 			white-space: nowrap;
 			display: block;
 			line-height: normal;
+			border-radius: 1px;
+			&:hover {
+				box-shadow: 0 0 0 10px rgba(79, 79, 79, 0.63);
+				background: rgba(79, 79, 79, 0.63);
+			}
 		}
 	}
 	&__actions {

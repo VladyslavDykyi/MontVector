@@ -1,0 +1,109 @@
+.launch {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	&-wrapper {
+		background: #fafaf7;
+		padding: 120px 0;
+		@media screen and (max-width: 992px) {
+			padding: 80px 0;
+		}
+		@media screen and (max-width: 768px) {
+			padding: 60px 0;
+		}
+	}
+	& > .label-text {
+		margin-bottom: 32px;
+	}
+	&__title {
+		font-weight: 500;
+		font-size: 44px;
+		text-align: center;
+		color: #0e0e0e;
+		margin-bottom: 16px;
+		@media screen and (max-width: 620px) {
+			font-size: 32px;
+		}
+	}
+	&__data {
+		font-weight: 500;
+		font-size: 128px;
+		line-height: 100%;
+		letter-spacing: -0.03em;
+		text-align: center;
+		color: #a01818;
+		margin-bottom: 32px;
+		@media screen and (max-width: 768px) {
+			font-size: 96px;
+		}
+	}
+	&__text {
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 140%;
+		text-align: center;
+		color: #5a5a5a;
+		margin-bottom: 60px;
+	}
+	&__list {
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		margin-bottom: 0;
+		@media screen and (max-width: 768px) {
+			flex-direction: column;
+		}
+	}
+	&__item {
+		display: flex;
+		flex-direction: column;
+		padding: 0 60px;
+		border-right: 1px solid #d8d5cc;
+		@media screen and (max-width: 992px) {
+			flex-direction: column;
+			padding: 0 45px;
+		}
+		@media screen and (max-width: 768px) {
+			border-right: none;
+			padding: 24px 0 ;
+			border-bottom: 1px solid #d8d5cc;
+			text-align: center;
+		}
+		&:first-child {
+			padding-left: 0;
+			@media screen and (max-width: 768px) {
+				padding-top: 0;
+			}
+		}
+		&:last-child {
+			border-right: none;
+			padding-right: 0;
+			@media screen and (max-width: 768px) {
+				padding-bottom: 0;
+				border-bottom: none;
+			}
+		}
+		& h3 {
+			font-weight: 500;
+			font-size: 14px;
+			letter-spacing: 0.25em;
+			line-height: normal;
+			color: #a01818;
+			margin-bottom: 10px;
+		}
+		& h4 {
+			font-weight: 600;
+			font-size: 24px;
+			line-height: normal;
+			color: #0e0e0e;
+			margin-bottom: 2px;
+		}
+		& p {
+			font-weight: 400;
+			font-size: 14px;
+			line-height: normal;
+			color: #5a5a5a;
+			margin-bottom: 0;
+		}
+	}
+}

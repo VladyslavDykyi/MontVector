@@ -277,6 +277,7 @@ input::-webkit-credentials-auto-fill {
   background-image: url("../../img/hero-bg.png");
   background-repeat: no-repeat;
   background-position: center bottom;
+  background-size: 592px;
   min-height: 900px;
   position: relative;
 }
@@ -754,6 +755,7 @@ input::-webkit-credentials-auto-fill {
   background-image: url("../../img/bbrbrg2b.png");
   background-repeat: no-repeat;
   background-position: right bottom;
+  background-size: 603px;
 }
 
 .digital > .label-text {
@@ -882,6 +884,7 @@ input::-webkit-credentials-auto-fill {
   background-image: url("../../img/bg-infractructure.png");
   background-repeat: no-repeat;
   background-position: center bottom;
+  background-size: 949px;
 }
 
 .infrastructure > .label-text {
@@ -1249,7 +1252,12 @@ input::-webkit-credentials-auto-fill {
   line-height: 140%;
   text-align: center;
   color: #5a5a5a;
+  text-decoration: none;
   margin-bottom: 0;
+}
+
+.trust__text-mini:hover {
+  text-decoration: underline;
 }
 
 .trust__list {
@@ -1938,6 +1946,7 @@ input::-webkit-credentials-auto-fill {
   .infrastructure-wrapper {
     padding: 80px 0 451px;
     background-image: url("../../img/bg-infractructure-tablet.png");
+    background-size: 688px;
   }
 
   .infrastructure__list {
@@ -2267,6 +2276,7 @@ input::-webkit-credentials-auto-fill {
     padding: 60px 0 650px;
     background-image: url("../../img/bg-infractructure-mobile.png");
     background-position: right bottom;
+    background-size: 345px;
   }
 
   .infrastructure__list {

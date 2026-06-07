@@ -32,6 +32,24 @@
 		flex-direction: column;
 		grid-gap: 8px;
 		padding: 0 16px 16px;
+		& .alert  {
+			margin-top: 20px;
+			align-items: center;
+			grid-gap: 20px;
+			&-succes {
+				& path {
+					fill: #0a3622;
+				}
+			}
+			&-danger {
+				& path {
+					fill: #58151c
+				}
+			}
+			& > p {
+				margin-bottom: 0;
+			}
+		}
 		&__link {
 			border-radius: 10px;
 			padding: 16px;

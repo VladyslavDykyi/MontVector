@@ -1,0 +1,36 @@
+@import "_default";
+@import "_header";
+
+.wrapper {
+	background: #f4f2ec;
+}
+.bg-section {
+	padding: 100px 0;
+	@media screen and (max-width: 992px) {
+		padding: 80px 0;
+	}
+	@media screen and (max-width: 768px) {
+		padding: 60px 0;
+	}
+	& h1 {
+		font-weight: 500;
+		font-size: 44px;
+		text-align: center;
+		color: #0e0e0e;
+		margin-bottom: 24px;
+		@media screen and (max-width: 620px) {
+			font-size: 32px;
+		}
+	}
+	& p  {
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 140%;
+		text-align: center;
+		color: #5a5a5a;
+		margin-bottom: 32px;
+	}
+}
+@import "_footer";
+
+@import "_modal";

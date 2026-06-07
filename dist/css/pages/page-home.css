@@ -1739,6 +1739,26 @@ input::-webkit-credentials-auto-fill {
   padding: 0 16px 16px;
 }
 
+.modal-footer .alert {
+  margin-top: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  grid-gap: 20px;
+}
+
+.modal-footer .alert-succes path {
+  fill: #0a3622;
+}
+
+.modal-footer .alert-danger path {
+  fill: #58151c;
+}
+
+.modal-footer .alert > p {
+  margin-bottom: 0;
+}
+
 .modal-footer__link {
   border-radius: 10px;
   padding: 16px;

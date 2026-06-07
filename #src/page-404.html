@@ -1,24 +1,38 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Page-404</title>
-
-  <link rel="stylesheet" href="./css/pages/page-404.min.css">
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Page-404</title>
+	<link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="./css/default/style.min.css">
+	<link rel="stylesheet" href="./css/lib/bootstrap.v5.3.3.min.css">
+	<link rel="stylesheet" href="./css/pages/page-404.min.css">
 </head>
 <body class="d-flex flex-column min-vh-100">
-
 @@include('./html/_header.html')
 <main class="wrapper flex-grow-1">
-  <div class="container-xxl">
-    <h2 class="text-center">404</h2>
-    <p class="text-center">an error occurred</p>
-  </div>
+	<section class="bg-section">
+		<div class="container-xxl">
+			<h1 class="text-center">404</h1>
+			<p class="text-center">An error occurred</p>
+		</div>
+	</section>
 </main>
-
-
+@@include('./html/_footer.html')
+<!-- початок цей блок ще в розробці _modal	-->
+<!-- Modal -->
+@@include('./html/_modal.html')
+<!-- кінець цей блок ще в розробці _modal	-->
+<script src="./js/lib/popper.v2.11.8.min.js"></script>
+<script src="./js/lib/bootstrap.v5.3.3.min.js"></script>
+<script>
+	document.addEventListener('DOMContentLoaded', function () {
+		const modal = new bootstrap.Modal(document.getElementById('modal-alerts'));
+		modal.show();
+	});
+</script>
 </body>
 </html>
